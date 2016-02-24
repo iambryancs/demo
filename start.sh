@@ -7,7 +7,7 @@ docker rm app
 docker rmi -f app
 
 # build
-docker build -t app docker
+docker build -t app .
 
 
 # run
