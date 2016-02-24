@@ -11,7 +11,7 @@ ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 RUN rm -rf /var/www/html
 
-ADD ./html /var/www/
+ADD ./html /var/www/html
 
 #RUN git clone https://github.com/iambryancs/demo.git /var/www/html
 
