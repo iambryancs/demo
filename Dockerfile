@@ -1,5 +1,4 @@
 FROM ubuntu:trusty
-ENV DEBIAN_FRONTEND noninteractive
 
 # Install dependecies
 RUN apt-get update
